@@ -1,0 +1,388 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+.cover {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+.header ul li {
+  color: white;
+  display: inline;
+  margin-left: 50px;
+}
+.header ul {
+  margin-right: 180px;
+  float: right;
+}
+.logo {
+  margin-right: 400px;
+  float: none;
+  font-weight: bold;
+  font-size: 23px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.top {
+  background-image: url("https://images.pexels.com/photos/3183156/pexels-photo-3183156.jpeg?auto=compress&cs=tinysrgb&w=600");
+  height: 500px;
+  background-size: cover;
+}
+.text {
+  color: white;
+  text-align: center;
+  padding: 120px;
+}
+p {
+  font-size: small;
+}
+button {
+  padding: 10px 18px;
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+}
+.btn2 {
+  background-color: transparent;
+  margin-left: 13px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+
+  border-bottom: 1px solid red;
+}
+.main {
+  display: flex;
+  justify-content: center;
+
+  margin: -50px 20px 20px 0px;
+}
+.box {
+  border: 1px solid black;
+  background-color: black;
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
+  transform: translate(10px 10px);
+  color: white;
+}
+.boxone {
+  color: white;
+  border: 1px solid black;
+  background-color: red;
+  width: 250px;
+  height: 250px;
+  margin-left: 15px;
+  transform: translate(10px 10px);
+}
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+span {
+  color: red;
+}
+.serv {
+  color: red;
+  margin-bottom: -15px;
+  font-size: 15px;
+}
+.best {
+  font-size: 32px;
+  margin-top: -8px;
+}
+.para {
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: -25px;
+}
+.port {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 70px;
+  gap: 1rem;
+}
+.plan {
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 60px;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+}
+.click {
+  background-color: transparent;
+  color: white;
+  border-color: white;
+  width: 120px;
+  margin-top: 20px;
+}
+.imred {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-left: 50px;
+}
+
+.top {
+  margin: 0;
+  /* width: 100vw; */
+}
+
+.footer {
+  display: flex;
+
+  background-color: gainsboro;
+  padding: 60px;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  flex-direction: row;
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 30px;
+}
+.footer2 {
+  font-size: large;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-right: 40px;
+  gap: 0 10px;
+}
+.secondnav {
+  display: flex;
+  justify-content: center;
+}
+.secondnav ul li {
+  display: inline;
+  color: black;
+}
+.secnavbar {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: small;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.secnavbar a {
+  color: gray;
+  text-decoration: none;
+}
+.listbar a:hover {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+}
+.list {
+  margin-right: 20px;
+}
+.pexel {
+  display: flex;
+  flex-direction: column;
+}
+.pex1 {
+  display: flex;
+  gap: 10px;
+}
+.pex2 {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+.footer3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 30px;
+}
+.footbut {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  padding: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 12px;
+  font-size: 10px;
+}
+.textlog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  text-align: end;
+  flex-direction: row;
+}
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logos2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: end;
+}
+.footer4 {
+  background-color: gainsboro;
+  padding: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: start;
+  flex-direction: row;
+}
+.data1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.data2 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 30px;
+  gap: 0;
+}
+.data3 {
+  display: flex;
+  flex-direction: column;
+}
+.footer5 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: end;
+  gap: 40px;
+  padding: 50px;
+  margin-bottom: -20px;
+}
+.formset {
+  text-align: right;
+}
+select {
+  padding: 5px;
+  width: 373px;
+  margin-top: 15px;
+}
+#formy {
+  padding: 5px;
+  width: 377px;
+  margin-top: 32px;
+}
+#name {
+  padding: 85px;
+  margin-top: 15px;
+  width: 370px;
+  align-items: flex-start;
+  text-align: start;
+}
+#Email {
+  padding: 6px;
+  margin-top: 15px;
+}
+.btnform {
+  width: 60%;
+}
+.leastfooter {
+  margin-top: 60px;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.877);
+}
+
+.header ul li {
+  color: white;
+  display: inline;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.header ul {
+  margin-right: 140px;
+  float: right;
+}
+.contact h5 {
+  color: white;
+  margin-top: 120px;
+  align-items: center;
+  margin-left: 10px;
+}
+.contact p {
+  color: white;
+  margin-left: 10px;
+}
+.last {
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: -160px;
+  margin-bottom: 30px;
+  margin-left: 500px;
+  align-items: center;
+}
+.lastbtn {
+  padding: 8px;
+  width: 80px;
+  position: absolute;
+}
+#email2 {
+  padding: 7px;
+  width: 300px;
+}
+.fa {
+  color: black;
+  padding: 3px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: red;
+  margin-left: 10px;
+  margin-top: 13px;
+}
+.lastform p {
+  margin-top: 50px;
+  display: flex;
+}
